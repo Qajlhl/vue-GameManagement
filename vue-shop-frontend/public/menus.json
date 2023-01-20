@@ -1,0 +1,27 @@
+{
+  collapse: false,
+  items: [
+      {
+          icon: 'el-icon-lx-home',
+          index: '/dashboard',
+          title: '系统首页'
+      },
+      {
+          icon: 'el-icon-lx-calendar',
+          index: 'system',
+          title: '系统管理',
+          subs: [
+              {
+                  index: '/user',
+                  title: '用户管理'
+              }
+          ]
+      },
+
+      {
+          icon: 'el-icon-lx-redpacket_fill',
+          index: '/setting',
+          title: '个人信息'
+      }
+  ]
+}
